@@ -1,0 +1,470 @@
+@import 'tailwindcss';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'select2/dist/css/select2.min.css';
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import '@fancyapps/ui/dist/fancybox/fancybox.css';
+@import 'toastr/build/toastr.min.css';
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* Custom Styles */
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .7) !important;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: var(--primary-color) !important;
+}
+
+/* Spread nav items evenly */
+@media (min-width: 992px) {
+    .navbar-nav {
+        flex: 1;
+        justify-content: space-evenly;
+    }
+
+    .navbar-nav .nav-link {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hide number input spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+/* Flash Sale Countdown */
+.flash-sale-countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    min-width: 60px;
+}
+
+.countdown-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--danger-color);
+    line-height: 1;
+}
+
+.countdown-label {
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.countdown-separator {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--danger-color);
+}
+
+/* Product Card */
+.product-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--danger-color);
+}
+
+.product-sale-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+}
+
+.product-discount {
+    background: var(--danger-color);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Cart */
+.cart-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+/* Cart Icon in Header */
+.navbar a[href*="cart"] {
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    border-color: #6c757d !important;
+    color: #6c757d !important;
+}
+
+.navbar a[href*="cart"]:hover {
+    transform: scale(1.1);
+    background-color: #6c757d !important;
+    color: white !important;
+    border-color: #6c757d !important;
+}
+
+.navbar a[href*="cart"] .fa-shopping-cart {
+    color: #6c757d;
+}
+
+.navbar a[href*="cart"]:hover .fa-shopping-cart {
+    color: white;
+}
+
+.navbar a[href*="cart"] .cart-count {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.navbar a[href*="cart"]:hover .cart-count {
+    background-color: #fff !important;
+    color: var(--danger-color) !important;
+    animation: none;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: var(--primary-color);
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Top Bar */
+.top-bar {
+    font-size: 14px;
+    position: relative;
+    z-index: 1029;
+}
+
+/* Header */
+header {
+    position: relative;
+    z-index: 1030;
+}
+
+.navbar-collapse {
+    z-index: 1031;
+}
+
+.navbar-nav {
+    z-index: 1032;
+}
+
+.dropdown-menu {
+    z-index: 1050 !important;
+}
+
+.navbar-toggler {
+    z-index: 1031;
+}
+
+/* Ensure cart button is visible */
+.navbar a[href*="cart"] {
+    position: relative;
+    z-index: 1032;
+}
+
+.top-bar a:hover {
+    text-decoration: underline !important;
+}
+
+/* Category Icons */
+.category-icon-box {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.category-icon-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Hero Banner */
+.hero-banner {
+    margin-top: 0;
+}
+
+.hero-slide {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Product Card Improvements */
+.product-card .card-body {
+    padding: 1rem;
+}
+
+.product-card .card-title {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Flash Sale Section */
+.flash-sale-section {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+}
+
+/* Text Colors */
+.text-pink {
+    color: #e91e63;
+}
+
+/* Banner Section */
+.banner-item {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.banner-item:hover {
+    transform: scale(1.02);
+}
+
+.banner-item img {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Category Products Section */
+.category-products {
+    position: relative;
+}
+
+.category-products h2 {
+    font-size: 1.75rem;
+    color: #333;
+}
+
+/* Header z-index */
+header.sticky-top {
+    z-index: 1030 !important;
+}
+
+.navbar {
+    z-index: 1030;
+}
+
+/* Show dropdown on hover for desktop */
+@media (min-width: 992px) {
+
+    .nav-item.dropdown:hover>.dropdown-menu,
+    .hover-dropdown:hover>.dropdown-menu {
+        display: block !important;
+        margin-top: 0 !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        z-index: 1100 !important;
+    }
+
+    /* Bridge the gap between nav-link and dropdown-menu to prevent closing on mouse move */
+    .nav-item.dropdown:hover::before {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        width: 100%;
+        height: 20px;
+        z-index: 1099;
+    }
+}
+
+/* Remove dropdown caret */
+.dropdown-toggle::after,
+.hover-dropdown .nav-link::after {
+    display: none !important;
+    content: none !important;
+}
+
+.dropdown-menu {
+    z-index: 1050;
+}
+
+/* Toastr Customization */
+#toast-container {
+    z-index: 9999 !important;
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+}
+
+#toast-container>div {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 8px !important;
+    padding: 15px 20px !important;
+    min-width: 300px !important;
+    opacity: 1 !important;
+}
+
+#toast-container.toast-top-right>div {
+    margin-left: auto !important;
+}
+
+#toast-container>.toast-success {
+    background-color: #28a745;
+    border-left: 4px solid #1e7e34;
+}
+
+#toast-container>.toast-error {
+    background-color: #dc3545;
+    border-left: 4px solid #bd2130;
+}
+
+#toast-container>.toast-info {
+    background-color: #17a2b8;
+    border-left: 4px solid #138496;
+}
+
+#toast-container>.toast-warning {
+    background-color: #ffc107;
+    border-left: 4px solid #e0a800;
+    color: #333;
+}
+
+.toast-title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.toast-message {
+    font-size: 14px;
+    line-height: 1.5;
+    color: white !important;
+}
+
+.toast-close-button {
+    opacity: 0.8;
+    font-size: 18px;
+    color: white !important;
+}
+
+.toast-close-button:hover {
+    opacity: 1;
+}
+
+/* Ensure toastr is visible and styled correctly */
+.toast {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.toast-success {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+.toast-success .toast-message,
+.toast-success .toast-title {
+    color: white !important;
+}
+
+.toast-success .toast-title {
+    font-weight: 600 !important;
+    margin-bottom: 5px !important;
+}
+
+.toast-success small {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .countdown-value {
+        font-size: 18px;
+    }
+
+    .countdown-item {
+        min-width: 50px;
+        padding: 6px 8px;
+    }
+
+    .top-bar .col-md-6 {
+        text-align: center !important;
+        margin-bottom: 0.5rem;
+    }
+
+    .category-icon-box {
+        padding: 1rem !important;
+    }
+
+    .category-icon-box i {
+        font-size: 1.5rem !important;
+    }
+}
