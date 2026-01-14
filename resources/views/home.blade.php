@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Nongnghiepvathucpham-AFTD.com - Hàng Nhập Khẩu Chính Ngạch 100%')
+@section('title', 'Nongnghiepvathucpham-AFTD.com - Sản phẩm an toàn cho người tiêu dùng')
 
 @section('content')
     <!-- Hero Banner Slider -->
@@ -126,22 +126,22 @@
 
     <!-- Banner Section -->
     @if(isset($section1Banners) && $section1Banners->count() > 0)
-    <section class="banner-section py-4">
-        <div class="container">
-            <div class="row g-3">
-                @foreach($section1Banners as $banner)
-                <div class="col-md-4">
-                    <div class="banner-item rounded overflow-hidden">
-                        <a href="{{ $banner->link_url ?? '#' }}">
-                            <img src="{{ asset('storage/' . $banner->image_path) }}" alt="{{ $banner->title ?? 'Banner' }}"
-                                class="img-fluid w-100">
-                        </a>
-                    </div>
+        <section class="banner-section py-4">
+            <div class="container">
+                <div class="row g-3">
+                    @foreach($section1Banners as $banner)
+                        <div class="col-md-4">
+                            <div class="banner-item rounded overflow-hidden">
+                                <a href="{{ $banner->link_url ?? '#' }}">
+                                    <img src="{{ asset('storage/' . $banner->image_path) }}" alt="{{ $banner->title ?? 'Banner' }}"
+                                        class="img-fluid w-100">
+                                </a>
+                            </div>
+                        </div>
+                    @endforeach
                 </div>
-                @endforeach
             </div>
-        </div>
-    </section>
+        </section>
     @endif
 
     <!-- Featured Products - Bán chạy nhất -->
@@ -211,22 +211,22 @@
 
     <!-- Banner Section 2 -->
     @if(isset($section2Banners) && $section2Banners->count() > 0)
-    <section class="banner-section py-4">
-        <div class="container">
-            <div class="row g-3">
-                @foreach($section2Banners as $banner)
-                <div class="col-md-6">
-                    <div class="banner-item rounded overflow-hidden">
-                        <a href="{{ $banner->link_url ?? '#' }}">
-                            <img src="{{ asset('storage/' . $banner->image_path) }}" alt="{{ $banner->title ?? 'Banner' }}"
-                                class="img-fluid w-100">
-                        </a>
-                    </div>
+        <section class="banner-section py-4">
+            <div class="container">
+                <div class="row g-3">
+                    @foreach($section2Banners as $banner)
+                        <div class="col-md-6">
+                            <div class="banner-item rounded overflow-hidden">
+                                <a href="{{ $banner->link_url ?? '#' }}">
+                                    <img src="{{ asset('storage/' . $banner->image_path) }}" alt="{{ $banner->title ?? 'Banner' }}"
+                                        class="img-fluid w-100">
+                                </a>
+                            </div>
+                        </div>
+                    @endforeach
                 </div>
-                @endforeach
             </div>
-        </div>
-    </section>
+        </section>
     @endif
 
     <!-- Làm Đẹp Products -->

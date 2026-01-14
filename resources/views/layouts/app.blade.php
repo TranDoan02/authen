@@ -61,7 +61,7 @@
                 <div class="col-4 col-md-6">
                     <small class="d-block d-md-inline" style="font-size: 0.7rem;">
                         <i class="fas fa-phone me-1"></i><span class="d-none d-sm-inline">Hotline: </span><a
-                            href="tel:0966358100" class="text-white text-decoration-none fw-bold">090.1141.775</a>
+                            href="tel:0981600975" class="text-white text-decoration-none fw-bold">098.160.0975</a>
                     </small>
                 </div>
                 <div class="col-8 col-md-6 text-end">
@@ -206,12 +206,12 @@
             <div class="row">
                 <div class="col-md-3 mb-4">
                     <h5 class="mb-3">Nongnghiepvathucpham-AFTD.com</h5>
-                    <p class="text-white-50">Hàng nhập khẩu chính ngạch 100%</p>
+                    <p class="text-white-50">Sản phẩm an toàn cho người tiêu dùng</p>
                     <p class="text-white-50 mb-2">
                         <i class="fas fa-phone me-2"></i>0966.358.100
                     </p>
                     <p class="text-white-50 mb-3">
-                        <i class="fas fa-envelope me-2"></i>tranan120992@gmail.com
+                        <i class="fas fa-envelope me-2"></i>nongnghiepvathucpham-aftd@gmail.com
                     </p>
                     <div class="d-flex gap-3">
                         <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
@@ -269,28 +269,12 @@
                 <div class="col-md-3 mb-4">
                     <h6 class="mb-3">Hệ thống kho Nongnghiepvathucpham-AFTD.com</h6>
                     <div class="mb-3">
-                        <strong>Văn Phòng Hồ Chí Minh</strong><br>
+                        <strong>Văn Phòng Hưng Yên</strong><br>
                         <small class="text-white-50">
-                            <i class="fas fa-map-marker-alt me-1"></i>223 Hoàng Văn Thụ, Phường 8, Q Phú Nhuận, HCM<br>
+                            <i class="fas fa-map-marker-alt me-1"></i>Xóm 12, Xã Nghĩa Trụ, Huyện Văn Giang, Tỉnh Hưng
+                            Yên, Việt Nam<br>
                             <i class="fas fa-clock me-1"></i>Giờ làm việc: 8h30 - 17h30<br>
-                            <i class="fas fa-phone me-1"></i>Hotline: 0966358100
-                        </small>
-                    </div>
-                    <div class="mb-3">
-                        <strong>Văn Phòng HÀ NỘI</strong><br>
-                        <small class="text-white-50">
-                            <i class="fas fa-map-marker-alt me-1"></i>Số 2 Ngõ 219 Trung Kính, P. Yên Hòa, Q. Cầu Giấy,
-                            Hà Nội<br>
-                            <i class="fas fa-clock me-1"></i>Giờ làm việc: 8h30 - 17h30<br>
-                            <i class="fas fa-phone me-1"></i>Hotline: 0966358100
-                        </small>
-                    </div>
-                    <div>
-                        <strong>Văn Phòng PHÚ THỌ</strong><br>
-                        <small class="text-white-50">
-                            <i class="fas fa-map-marker-alt me-1"></i>Hương Lung, Cẩm Khê, Phú Thọ<br>
-                            <i class="fas fa-clock me-1"></i>Giờ làm việc: 8h30 - 17h30<br>
-                            <i class="fas fa-phone me-1"></i>Hotline: 0966358100
+                            <i class="fas fa-phone me-1"></i>Hotline: 0981600975
                         </small>
                     </div>
                 </div>
@@ -301,7 +285,7 @@
                     <p class="text-white-50 small mb-0">
                         Hộ kinh doanh Trần Thị Mỹ An, MS thuế: 8636634045-001, cấp ngày 16/07/2024<br>
                         Nơi cấp: UBND H. Cẩm Khê, Địa chỉ: Khu Suông 1, Hương Lung, Cẩm Khê, Phú Thọ.<br>
-                        Điện thoại: 0326374486, Email: tranan120992@gmail.com, Chịu TNND: Trần Thị Mỹ An
+                        Điện thoại: 0326374486, Email: nongnghiepvathucpham-aftd@gmail.com, Chịu TNND: Trần Thị Mỹ An
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">

@@ -88,11 +88,11 @@ class PostSeeder extends Seeder
 
             // Chứng nhận và giải thưởng
             [
-                'title' => 'Nongnghiepvathucpham-AFTD.com nhận chứng nhận Hàng nhập khẩu chính ngạch 100%',
+                'title' => 'Nongnghiepvathucpham-AFTD.com nhận chứng nhận Sản phẩm an toàn cho người tiêu dùng',
                 'slug' => 'an-tran-authentic-nhan-chung-nhan-hang-nhap-khau-chinh-ngach-100',
                 'excerpt' => 'Chúng tôi tự hào được chứng nhận là đơn vị nhập khẩu chính ngạch 100%, đảm bảo chất lượng và nguồn gốc xuất xứ rõ ràng cho mọi sản phẩm.',
                 'content' => '<h2>Chứng nhận Hàng nhập khẩu chính ngạch</h2>
-<p>Nongnghiepvathucpham-AFTD.com vinh dự nhận được chứng nhận <strong>Hàng nhập khẩu chính ngạch 100%</strong> từ các cơ quan chức năng, khẳng định cam kết của chúng tôi trong việc cung cấp sản phẩm chất lượng cao với nguồn gốc xuất xứ rõ ràng.</p>
+<p>Nongnghiepvathucpham-AFTD.com vinh dự nhận được chứng nhận <strong>Sản phẩm an toàn cho người tiêu dùng</strong> từ các cơ quan chức năng, khẳng định cam kết của chúng tôi trong việc cung cấp sản phẩm chất lượng cao với nguồn gốc xuất xứ rõ ràng.</p>
 
 <h3>Ý nghĩa của chứng nhận</h3>
 <ul>
@@ -123,7 +123,7 @@ class PostSeeder extends Seeder
                 'is_published' => true,
                 'published_at' => now()->subDays(15),
                 'views' => 2100,
-                'meta_title' => 'Chứng nhận Hàng nhập khẩu chính ngạch 100% - Nongnghiepvathucpham-AFTD.com',
+                'meta_title' => 'Chứng nhận Sản phẩm an toàn cho người tiêu dùng - Nongnghiepvathucpham-AFTD.com',
                 'meta_description' => 'Nongnghiepvathucpham-AFTD.com được chứng nhận nhập khẩu chính ngạch 100%, đảm bảo chất lượng và nguồn gốc sản phẩm.',
             ],
             [

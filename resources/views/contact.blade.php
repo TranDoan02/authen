@@ -10,7 +10,8 @@
                     <h1 class="fw-bold mb-3">NƠI GIẢI ĐÁP TOÀN BỘ MỌI THẮC MẮC CỦA BẠN?</h1>
                     <p class="text-muted">
                         Nongnghiepvathucpham-AFTD.com với sứ mệnh mang lại giá trị tốt nhất cho người Việt.
-                        Chúng tôi cam kết cung cấp hàng nhập khẩu chính ngạch 100%, đảm bảo chất lượng và nguồn gốc xuất xứ
+                        Chúng tôi cam kết cung cấp Sản phẩm an toàn cho người tiêu dùng, đảm bảo chất lượng và nguồn gốc
+                        xuất xứ
                         rõ ràng.
                     </p>
                 </div>
@@ -21,14 +22,14 @@
                         <i class="fas fa-map-marker-alt text-primary me-2"></i>
                         <strong>Địa chỉ:</strong>
                         <span class="text-muted">
-                            Khu Suông 1, Hương Lung, Cẩm Khê, Phú Thọ, Việt Nam
+                            Xóm 12, Xã Nghĩa Trụ, Tỉnh Hưng Yên, Việt Nam
                         </span>
                     </div>
 
                     <div class="mb-3">
                         <i class="fas fa-id-card text-primary me-2"></i>
                         <strong>Mã số thuế:</strong>
-                        <span class="text-muted">8636634045-001</span>
+                        <span class="text-muted">0901141775</span>
                     </div>
 
                     <div class="mb-3">
@@ -39,21 +40,22 @@
 
                     <div class="mb-3">
                         <small class="text-muted">
-                            <strong>Nơi cấp:</strong> UBND H. Cẩm Khê -
-                            <strong>Ngày cấp:</strong> 16/07/2024
+                            <strong>Nơi cấp:</strong> Thuế cơ sở 3 tỉnh Hưng Yên
+                            <strong>Ngày cấp:</strong> 2023-06-16
                         </small>
                     </div>
 
                     <div class="mb-3">
                         <i class="fas fa-phone text-primary me-2"></i>
                         <strong>Hotline:</strong>
-                        <a href="tel:0966358100" class="text-decoration-none">0966.358.100</a>
+                        <a href="tel:0981600975" class="text-decoration-none">098 160 0975</a>
                     </div>
 
                     <div class="mb-3">
                         <i class="fas fa-envelope text-primary me-2"></i>
                         <strong>Email:</strong>
-                        <a href="mailto:tranan120992@gmail.com" class="text-decoration-none">tranan120992@gmail.com</a>
+                        <a href="mailto:nongnghiepvathucpham-aftd@gmail.com"
+                            class="text-decoration-none">nongnghiepvathucpham-aftd@gmail.com</a>
                     </div>
                 </div>
 
@@ -139,55 +141,20 @@
                     <div class="card-body">
                         <h5 class="card-title">
                             <i class="fas fa-map-marker-alt text-danger me-2"></i>
-                            Văn Phòng Hồ Chí Minh
+                            Văn Phòng Hưng Yên
                         </h5>
                         <p class="card-text">
                             <i class="fas fa-map-marker-alt me-2 text-muted"></i>
-                            223 Hoàng Văn Thụ, Phường 8, Q Phú Nhuận, HCM<br>
+                            Xóm 12, Xã Nghĩa Trụ, Huyện Văn Giang, Tỉnh Hưng Yên, Việt Nam<br>
                             <i class="fas fa-clock me-2 text-muted"></i>
                             Giờ làm việc: 8h30 - 17h30<br>
                             <i class="fas fa-phone me-2 text-muted"></i>
-                            Hotline: <a href="tel:0966358100" class="text-decoration-none">0966358100</a>
+                            Hotline: <a href="tel:0981600975" class="text-decoration-none">098 160 0975</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-map-marker-alt text-danger me-2"></i>
-                            Văn Phòng Hà Nội
-                        </h5>
-                        <p class="card-text">
-                            <i class="fas fa-map-marker-alt me-2 text-muted"></i>
-                            Số 2 Ngõ 219 Trung Kính, P. Yên Hòa, Q. Cầu Giấy, Hà Nội<br>
-                            <i class="fas fa-clock me-2 text-muted"></i>
-                            Giờ làm việc: 8h30 - 17h30<br>
-                            <i class="fas fa-phone me-2 text-muted"></i>
-                            Hotline: <a href="tel:0966358100" class="text-decoration-none">0966358100</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-map-marker-alt text-danger me-2"></i>
-                            Văn Phòng Phú Thọ
-                        </h5>
-                        <p class="card-text">
-                            <i class="fas fa-map-marker-alt me-2 text-muted"></i>
-                            Hương Lung, Cẩm Khê, Phú Thọ<br>
-                            <i class="fas fa-clock me-2 text-muted"></i>
-                            Giờ làm việc: 8h30 - 17h30<br>
-                            <i class="fas fa-phone me-2 text-muted"></i>
-                            Hotline: <a href="tel:0966358100" class="text-decoration-none">0966358100</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 @endsection
