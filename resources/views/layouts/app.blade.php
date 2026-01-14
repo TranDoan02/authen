@@ -283,9 +283,10 @@
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
                     <p class="text-white-50 small mb-0">
-                        Hộ kinh doanh Trần Thị Mỹ An, MS thuế: 8636634045-001, cấp ngày 16/07/2024<br>
-                        Nơi cấp: UBND H. Cẩm Khê, Địa chỉ: Khu Suông 1, Hương Lung, Cẩm Khê, Phú Thọ.<br>
-                        Điện thoại: 0326374486, Email: nongnghiepvathucpham-aftd@gmail.com, Chịu TNND: Trần Thị Mỹ An
+                        CÔNG TY CỔ PHẦN PHÁT TRIỂN CÔNG NGHỆ NÔNG NGHIỆP VÀ THỰC PHẨM, MS thuế: 0901141775, cấp ngày
+                        2023-06-16<br>
+                        Nơi cấp: Thuế cơ sở 3 tỉnh Hưng Yên, Địa chỉ: Xóm 12, Xã Nghĩa Trụ, Hưng Yên, Việt Nam.<br>
+                        Điện thoại: 0981600975, Email: nongnghiepvathucpham-aftd@gmail.com, Chịu TNND: QUẢN ĐỨC LAI
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
